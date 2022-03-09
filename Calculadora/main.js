@@ -4,7 +4,7 @@ let operadorAnt = null;
 const screen = document.querySelector(".display-calc");
 
 document.querySelector(".botoes-calc").addEventListener("click", function (event) {
-    botaoClick(event.target.innerText); // innerText obtem o valor do HTML, value do Input pelo usuario
+    botaoClick(event.target.innerText);
 });
 
 function atualizar() {
@@ -50,7 +50,7 @@ function manterOperador(value) {
     }
 }
 function utilizarOp(value) {
-    const intNumUser = parseInt(entradaUser) // intNumUser = Entrada do usuario
+    const intNumUser = parseInt(entradaUser) 
     if (totalRecorrente === 0) {
         totalRecorrente = intNumUser;
     } else {
