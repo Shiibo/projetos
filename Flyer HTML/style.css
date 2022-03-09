@@ -1,0 +1,68 @@
+.titulo-principal {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 64px;
+    font-weight: normal;
+    margin: 55px 0;
+}
+.imagem-noticia{
+    width: 100%;
+}
+.titulo-noticia{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+    margin: 15px 0;
+    text-align: center;
+}
+.texto-noticia{
+    line-height: 1.5;
+    font-size: 16px;
+}
+.fileira{
+    display: flex;
+    align-items: stretch;
+}
+.lateral{
+    width: 25%;
+}
+.centro {
+    width: 50%;
+}
+.noticia{
+    border:1px solid #333;
+    padding: 5px;
+}
+.tres-quartos{
+    width: 75%;
+}
+.lista-nav{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.itens-nav a {
+    text-decoration: none;
+    color: #555;
+}
+.itensnav a:hover{
+    text-decoration: underline;
+}
+.itens-nav{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: #555;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.itens-nav:nth-child(1) {background-color: antiquewhite;}
+.itens-nav:nth-child(2) {background-color: skyblue;}
+.itens-nav:nth-child(3) {background-color: burlywood;}
+.itens-nav:nth-child(4) {background-color: aquamarine;}
+.itens-nav:nth-child(5) {background-color: palevioletred;}
